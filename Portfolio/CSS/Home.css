@@ -1,0 +1,75 @@
+/* *{
+    margin: 0px;
+} */
+body{
+    background-color: black;
+
+}
+nav{
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+nav ul{
+    display: flex;
+    list-style-type: none;
+}
+nav button{
+    color: white;
+    background-color: black;
+    border: 2px solid white;
+    padding: 10px 15px;
+    border-radius: 10px;
+}
+
+nav ul:nth-of-type(1) select{
+    border: none;
+    background-color: black ;
+    color: white;
+}
+nav li{
+    color: white;
+    padding: 0px 20px;
+}
+
+section{
+    margin: auto;
+    display: flex;
+    /* margin: 0px 136px; */
+    width: 82%;
+    height: 646px;
+}
+section div{
+    color: white;
+}
+.SecBtn{
+    color: white;
+    background-color: blue;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 10px;
+}
+.Image1:hover{
+    transform: translatex(50px);
+    transition: transform 0.8s ease-in-out;
+
+    
+}
+.Image2:hover{
+    transform: translateY(50px);
+    transition: transform 0.8s ease-in-out;
+
+    
+}
+.Image3:hover{
+    transform: translateY(50px);
+    transition: transform 0.8s ease-in-out;
+
+    
+}
+button:hover{
+    transform: scale(1.2) ;
+    cursor: pointer;
+
+}
