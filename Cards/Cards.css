@@ -1,0 +1,129 @@
+.card1{
+    margin: 0px 35px;
+    padding: 20px;
+    width: 30%;
+    background-color: red;
+    border-radius: 20px;
+    box-shadow: 5px 5px gray;
+}
+.card2{
+    background-color: red;
+    padding: 20px;
+    width: 30%;
+    border-radius: 20px;
+    box-shadow: 5px 5px gray;
+}
+.card3{
+    background-color: red;
+    margin: 0px 35px;
+    padding: 20px;
+    width: 30%;
+    border-radius: 20px;
+    box-shadow: 5px 5px gray;
+}
+.card{
+    display: flex;
+    justify-content: space-around;
+    margin: 30px 126px;
+}
+.starImg{
+    width: 20px;
+    height: 20px;
+}
+.imgFlex{
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.profileImg{
+    border-radius: 50%;
+}
+h2{
+    font-size: 21px;
+}
+#imgFlex2{
+    top: 76px;
+
+}
+#imgFlex3{
+    top: 54px;
+}
+
+
+
+@media (max-width:768px){
+    .card{
+        margin: 0px 0px;
+        flex-wrap: wrap;
+    }
+    .card1{
+        width: 41%;
+        margin: 0px 0px;
+        
+    }
+    .card2{
+        width: 41%;
+    }
+    .card3{
+        margin: 27px 0px;
+        width: 41%;
+        position: relative;
+        right: 183px;
+    }
+    #imgFlex3{
+        top: 17px;
+    }
+    
+} 
+
+
+@media (max-width:576px) {
+    .card{
+        margin: 0px 0px;
+        flex-wrap: wrap;
+    }
+    .card1{
+        width: 41%;
+        margin: 0px 0px;
+        
+    }
+    .card2{
+        width: 41%;
+    }
+    .card3{
+        margin: 27px 0px;
+        width: 41%;
+        position: relative;
+        right: 137px;
+    }
+    #imgFlex2{
+        top: 93px;
+    }
+    #imgFlex3{
+        top: 21px;
+    }
+    
+}
+
+
+@media (max-width:992px) {
+    .card{
+        margin: 30px 0px;
+    }
+    #imgFlex2 {
+        top: 95px;
+    }
+    #imgFlex3 {
+        top: 81px;
+    }
+
+    
+}
+@media (max-width:575.98px) {
+    #imgFlex3 {
+        top: 10px;
+    }
+
+    
+} 
