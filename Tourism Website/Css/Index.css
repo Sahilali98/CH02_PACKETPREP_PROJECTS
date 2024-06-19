@@ -1,0 +1,507 @@
+
+body {
+    margin: 0px;
+    background-image:url("../Img/beachImg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+    /* Style The Dropdown Button */
+.dropbtn {
+    width: 149px;
+    background-color: transparent;
+    color: white;
+    /* padding: 16px; */
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    right: 12px;
+    position: relative;
+    display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+    background-color: #f1f1f1
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+    background-color: transparent;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+nav a{
+    text-decoration: none;
+}
+
+.Navbar a {
+    color: white;
+    text-decoration: none;
+    margin: 0px 20px;
+}
+
+.Navbar button {
+    background-color: transparent;
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: 2px solid white;
+    color: white;
+}
+
+
+
+nav h1 {
+    color: white;
+}
+
+.Block {
+    color: white;
+    margin: 0px 10.5%;
+    /* 0px 160px */
+}
+
+.Block p{
+    margin: 20px 0px;
+    font-size: 20px;
+}
+.Block input{
+    /* margin: -4px; */
+    padding-right: 93px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    border: none;
+}
+.Block select{
+    border: none;
+    padding-right: 187px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+.Rastaurant{
+    border-radius: 15px;
+    align-items: center;
+    display: flex;
+    width: 112px;
+    height: 43px;
+    background-color: white;
+}
+.Hotel{
+    border-radius: 15px;
+    margin: 0px 20px;
+    width: 112px;
+    height: 43px;
+    background-color: white;
+}
+.Hotel a{
+    text-decoration: none;
+    color: black;
+    display: flex;
+    align-items: center;
+}
+.Places{
+    border-radius: 15px;
+    width: 112px;
+    height: 43px;
+    background-color: white;
+}
+.Places a{
+    text-decoration: none;
+    color: black;
+    display: flex;
+    align-items: center;
+}
+.Shopping{
+    border-radius: 15px;
+    align-items: center;
+    display: flex;
+    margin: 0px 20px;
+    width: 112px;
+    height: 43px;
+    background-color: white;
+}
+.MiddleBlock{
+    text-align: center;
+    color: black;
+    display: flex;
+}
+.Guarantee{
+    border-radius: 20px;
+    background-color: white;
+    width: 20%;
+    height: 200px;
+    margin: 20px 0px;
+}
+.Guarantee img{
+    margin: 20px;
+    width: 70px;
+}
+.Guarantee h1{
+    margin: 0px;
+    color: black;
+}
+.Love{
+    border-radius: 20px;
+    background-color: white;
+    width: 20%;
+    height: 200px;
+    margin: 20px 0px;
+}
+.Love svg{
+    margin: 10px;
+}
+.Love h1{
+    margin: 0px;
+    padding: 20px;
+    color: black;
+}
+.Agent{
+    border-radius: 20px;
+    background-color: white;
+    width: 20%;
+    height: 200px;
+    margin: 20px 0px;
+}
+.Agent svg{
+    margin: 10px;
+}
+.Agent h1{
+    margin: 0px;
+    padding: 15px;
+    color: black;
+}
+.Support{
+    border-radius: 20px;
+    background-color: white;
+    width: 20%;
+    height: 200px;
+    margin: 20px 0px;
+}
+.Support svg{
+    margin: 10px;
+}
+.Support h1{
+    margin: 0px;
+    padding: 15px;
+    color: black;
+}
+section{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+
+
+@media (min-width:320px) and  (max-width:576px) {
+    .Block{
+        margin: 0px 15.5%;
+    }
+    section{
+        flex-direction: column;
+        align-items: center;
+    }
+    .Guarantee{
+        width: 88%;
+    }
+    .Love{
+        width: 88%;
+    }
+    .Agent{
+        width: 88%;
+    }
+    .Support{
+        width: 88%;
+    }
+    .Block input {
+        margin: 14px 0px;
+        padding-right: 53px;
+        padding-left: 20px;
+        padding-bottom: 20px;
+        padding-top: 20px;
+        border: none;
+    }
+    .MiddleBlock{
+        flex-wrap: wrap;
+    }
+    .Rastaurant{
+        padding: 5px;
+        margin: 10px 0px;
+    }
+    .Hotel{
+        padding: 5px;
+        margin: 10px 5px;
+    }
+    .Places{
+        padding: 5px;
+        margin: 10px 5px;
+    }
+    .Shopping{
+        padding: 5px;
+        margin: 10px 0px;
+    }
+    .Block select{
+        padding-right: 129px;
+    }
+    
+}
+@media (min-width:577px) and (max-width:768px) {
+    .Block{
+        margin: 0px 18%;
+    }
+    .Block input {
+        margin: 14px 0px;
+        padding-right: 53px;
+        padding-left: 20px;
+        padding-bottom: 20px;
+        padding-top: 20px;
+        border: none;
+    }
+    .MiddleBlock{
+        flex-wrap: wrap;
+    }
+    .Rastaurant{
+        padding: 5px;
+        margin: 10px 0px;
+    }
+    .Hotel{
+        padding: 5px;
+        margin: 10px 5px;
+    }
+    .Places{
+        padding: 5px;
+        margin: 10px 5px;
+    }
+    .Shopping{
+        padding: 5px;
+        margin: 10px 0px;
+    }
+    .Block select{
+        padding-right: 129px;
+    }
+    section{
+        flex-wrap: wrap;
+    }
+    .Guarantee{
+        width: 88%;
+    }
+    .Love{
+        width: 88%;
+    }
+    .Agent{
+        width: 88%;
+    }
+    .Support{
+        width: 88%;
+    }
+}
+@media (min-width:769px) and (max-width:992px) {
+    .Block{
+        margin: 0px 3%;
+    }
+    .Block input {
+        margin: 14px 0px;
+        padding-right: 53px;
+        padding-left: 20px;
+        padding-bottom: 20px;
+        padding-top: 20px;
+        border: none;
+    }
+    .MiddleBlock{
+        flex-wrap: wrap;
+    }
+    .Rastaurant{
+        padding: 5px;
+        margin: 10px 0px;
+    }
+    .Hotel{
+        padding: 5px;
+        margin: 10px 5px;
+    }
+    .Places{
+        padding: 5px;
+        margin: 10px 5px;
+    }
+    .Shopping{
+        padding: 5px;
+        margin: 10px 0px;
+    }
+    .Block select{
+        padding-right: 129px;
+    }
+    section{
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .Guarantee{
+        width: 88%;
+    }
+    .Love{
+        width: 88%;
+    }
+    .Agent{
+        width: 88%;
+    }
+    .Support{
+        width: 88%;
+    }
+}
+@media (min-width:993px) and (max-width:1200px) {
+    .Block{
+        margin: 0px 7%;
+    }
+    .Block input {
+        margin: 14px 0px;
+        padding-right: 53px;
+        padding-left: 20px;
+        padding-bottom: 20px;
+        padding-top: 20px;
+        border: none;
+    }
+    .MiddleBlock{
+        flex-wrap: wrap;
+    }
+    .Rastaurant{
+        padding: 5px;
+        margin: 10px 0px;
+    }
+    .Hotel{
+        padding: 5px;
+        margin: 10px 5px;
+    }
+    .Places{
+        padding: 5px;
+        margin: 10px 5px;
+    }
+    .Shopping{
+        padding: 5px;
+        margin: 10px 0px;
+    }
+    .Block select{
+        padding-right: 129px;
+    }
+    section{
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .Guarantee{
+        width: 88%;
+    }
+    .Love{
+        width: 88%;
+    }
+    .Agent{
+        width: 88%;
+    }
+    .Support{
+        width: 88%;
+    }
+}
+@media (min-width:1201px) and (max-width:1400px) {
+    .Block{
+        margin: 0px 9%;
+    }
+    .Block input {
+        margin: 14px 0px;
+        padding-right: 53px;
+        padding-left: 20px;
+        padding-bottom: 20px;
+        padding-top: 20px;
+        border: none;
+    }
+    .MiddleBlock{
+        flex-wrap: wrap;
+    }
+    .Rastaurant{
+        padding: 5px;
+        margin: 10px 0px;
+    }
+    .Hotel{
+        padding: 5px;
+        margin: 10px 5px;
+    }
+    .Places{
+        padding: 5px;
+        margin: 10px 5px;
+    }
+    .Shopping{
+        padding: 5px;
+        margin: 10px 0px;
+    }
+    .Block select{
+        padding-right: 129px;
+    }
+    section{
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .Guarantee{
+        width: 88%;
+    }
+    .Love{
+        width: 88%;
+    }
+    .Agent{
+        width: 88%;
+    }
+    .Support{
+        width: 88%;
+    }
+}
+/* @media (min-width:1401px) and (max-width:2700px) {
+    .Block{
+        margin: 0px 14%;
+    }
+    
+} */
+
+@media (max-width:889px) {
+    .Navbar{
+        display: none;
+    }
+    section{
+        flex-wrap: wrap;
+    }
+}
+@media (min-width:890px) {
+    .dropdown{
+        display: none;
+    }
+    
+}
+
+
+
+

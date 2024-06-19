@@ -1,0 +1,227 @@
+body{
+    margin: 0px;
+}
+.card{
+    border-radius: 15px;
+    align-items: center;
+    display: flex;
+    margin: 6% 26%;
+    box-shadow: 10px grey;
+}
+.left{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 10px 0px 0px 10px;
+    height: 485px;
+    padding: 20px;
+    background-color: #fe4638;
+    text-align: center;
+    width: 50%;
+    box-shadow: 10px grey;
+}
+.left input{
+    background-color: transparent;
+    padding: 20px 40px;
+    border-radius: 20px;
+}
+.left button{
+    margin: 20px;
+    border-color: white;
+    background-color: transparent;
+    padding: 10px 40px;
+    border-radius: 20px;
+}
+.left h1{
+    margin: 20px;
+    color: white;
+    font-size: 40px;
+}
+.left a{
+    text-decoration: none;
+}
+.left button{
+    color: white;
+}
+.left p{
+    color: white;
+}
+.left div{
+    margin: 28% 0px;
+}
+.right{
+    height: 485px;
+    border-radius: 0px 10px 10px 0px;
+    /* box-shadow: 10px 10px grey; */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 20px;
+    background-color: #fefdfe;
+    text-align: center;
+    width: 50%;
+}
+.right div{
+    justify-content: center;
+    display: flex;
+}
+.right input[type='text']{
+    margin: 20px;padding: 20px 50px;
+}
+.right input[type='email']{
+    padding: 20px 50px;
+}
+.right input[type='password']{
+    margin: 20px; padding: 20px 50px;
+}
+.right input[type='submit']{
+    padding: 10px 40px;border-radius: 20px;background-color:#fe4638;color: white;border: none;
+}
+
+
+@media (max-width:380px) {
+    .card{
+        justify-content: center;
+        margin: 6% 0%;
+        flex-wrap: wrap;
+    }
+    .left{
+        border-radius: 10px 10px 10px 10px;
+        margin: 31px 0px;
+    }
+    .right{
+        border-radius: 10px 10px 10px 10px;
+    }
+    .right input[type='text'] {
+        margin: 5px;
+        padding: 20px 0px;
+    }
+    .right input[type='email'] {
+        padding: 20px 0px;
+    }
+    .right input[type='password'] {
+        margin: 5px;
+        padding: 20px 0px;
+    }
+
+    
+}
+
+@media (min-width:381px) and (max-width:576px) {
+    .card{
+        justify-content: center;
+        margin: 6% 0%;
+        flex-wrap: wrap;
+    }
+    .left{
+        border-radius: 10px 10px 10px 10px;
+        margin: 31px 0px;
+    }
+    .right{
+        border-radius: 10px 10px 10px 10px;
+    }
+    .right input[type='text'] {
+        margin: 20px;
+        padding: 20px 40px;
+    }
+    .right input[type='email'] {
+        padding: 20px 40px;
+    }
+    .right input[type='password'] {
+        margin: 20px;
+        padding: 20px 40px;
+    }
+    
+}
+
+@media (min-width:577px) and (max-width:768px) {
+    .card{
+        margin: 6% 6%;
+    }
+    .right input[type='text'] {
+        margin: 20px;
+        padding: 20px 38PX;
+    }
+    .right input[type='email'] {
+        padding: 18PX 38PX;
+    }
+    .right input[type='password'] {
+        margin: 20px;
+        padding: 20px 38PX;
+    }   
+}
+
+@media (min-width:769px) and (max-width:992px) {
+    .card{
+        justify-content: center;
+        margin: 6% 10%;
+    }
+    .right input[type='text'] {
+        margin: 21px;
+        padding: 21px 40PX;
+    }
+    .right input[type='email'] {
+        padding: 18PX 38PX;
+    }
+    .right input[type='password'] {
+        margin: 22px;
+        padding: 20px 38PX;
+    }
+    
+}
+
+@media (min-width:993px) and (max-width:1200px) {
+    .card{
+        justify-content: center;
+        margin: 6% 10%;
+        
+    }
+    .right input[type='text'] {
+        margin: 21px;
+        padding: 21px 40PX;
+    }
+    .right input[type='email'] {
+        padding: 18PX 38PX;
+    }
+    .right input[type='password'] {
+        margin: 22px;
+        padding: 20px 38PX;
+    }
+    
+}
+
+@media (min-width:1201px) and (max-width:1400px) {
+    .card{
+        justify-content: center;
+        margin: 6% 10%;
+    }
+    .right input[type='text'] {
+        margin: 22px;
+        padding: 21px 40PX;
+    }
+    .right input[type='email'] {
+        padding: 18PX 38PX;
+    }
+    .right input[type='password'] {
+        margin: 22px;
+        padding: 20px 38PX;
+    }
+    
+}
+
+/* @media (min-width:1401px) and (max-width:2077px) {
+    .card{
+        justify-content: center;
+        margin: 6% 10%;
+    }
+    .right input[type='text'] {
+        margin: 21px;
+        padding: 20px 40PX;
+    }
+    .right input[type='email'] {
+        padding: 18PX 38PX;
+    }
+    .right input[type='password'] {
+        margin: 22px;
+        padding: 20px 38PX;
+    }
+    
+} */
+
+

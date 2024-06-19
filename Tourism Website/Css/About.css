@@ -1,0 +1,22 @@
+.backImg div{
+    margin: 0px 218px;
+    position: relative;
+    bottom: 456px;  
+    color: white;
+}
+.backImg img{
+    opacity: 0.5;
+}
+
+@media (max-width:576px) {
+    .backImg div {
+        margin: 0px 80px;
+    }
+    
+}
+@media (max-width:768px) {
+    .backImg div {
+        margin: 0px 18%;
+    }
+    
+}
