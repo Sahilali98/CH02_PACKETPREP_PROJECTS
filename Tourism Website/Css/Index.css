@@ -1,11 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+* {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
 
 body {
     margin: 0px;
-    background-image:url("../Img/beachImg.jpg");
+    background-image: url("../Img/beachImg.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }
-    /* Style The Dropdown Button */
+
+/* Style The Dropdown Button */
 .dropbtn {
     width: 149px;
     background-color: transparent;
@@ -57,11 +66,17 @@ body {
 }
 
 nav {
+    top: 0px;
+    position: sticky;
     display: flex;
     align-items: center;
     justify-content: space-around;
+    background: transparent;    
+    backdrop-filter: blur(10px);
+
 }
-nav a{
+
+nav a {
     text-decoration: none;
 }
 
@@ -91,11 +106,12 @@ nav h1 {
     /* 0px 160px */
 }
 
-.Block p{
+.Block p {
     margin: 20px 0px;
     font-size: 20px;
 }
-.Block input{
+
+.Block input {
     /* margin: -4px; */
     padding-right: 93px;
     padding-left: 20px;
@@ -103,14 +119,16 @@ nav h1 {
     padding-top: 20px;
     border: none;
 }
-.Block select{
+
+.Block select {
     border: none;
     padding-right: 187px;
     padding-left: 20px;
     padding-bottom: 20px;
     padding-top: 20px;
 }
-.Rastaurant{
+
+.Rastaurant {
     border-radius: 15px;
     align-items: center;
     display: flex;
@@ -118,32 +136,37 @@ nav h1 {
     height: 43px;
     background-color: white;
 }
-.Hotel{
+
+.Hotel {
     border-radius: 15px;
     margin: 0px 20px;
     width: 112px;
     height: 43px;
     background-color: white;
 }
-.Hotel a{
+
+.Hotel a {
     text-decoration: none;
     color: black;
     display: flex;
     align-items: center;
 }
-.Places{
+
+.Places {
     border-radius: 15px;
     width: 112px;
     height: 43px;
     background-color: white;
 }
-.Places a{
+
+.Places a {
     text-decoration: none;
     color: black;
     display: flex;
     align-items: center;
 }
-.Shopping{
+
+.Shopping {
     border-radius: 15px;
     align-items: center;
     display: flex;
@@ -152,99 +175,138 @@ nav h1 {
     height: 43px;
     background-color: white;
 }
-.MiddleBlock{
+
+.MiddleBlock {
     text-align: center;
     color: black;
     display: flex;
 }
-.Guarantee{
+
+.Guarantee {
     border-radius: 20px;
     background-color: white;
     width: 20%;
     height: 200px;
     margin: 20px 0px;
 }
-.Guarantee img{
+
+.Guarantee img {
     margin: 20px;
     width: 70px;
 }
-.Guarantee h1{
+
+.Guarantee h1 {
     margin: 0px;
     color: black;
 }
-.Love{
+
+.Love {
     border-radius: 20px;
     background-color: white;
     width: 20%;
     height: 200px;
     margin: 20px 0px;
 }
-.Love svg{
+
+.Love svg {
     margin: 10px;
 }
-.Love h1{
+
+.Love h1 {
     margin: 0px;
     padding: 20px;
     color: black;
 }
-.Agent{
+
+.Agent {
     border-radius: 20px;
     background-color: white;
     width: 20%;
     height: 200px;
     margin: 20px 0px;
 }
-.Agent svg{
+
+.Agent svg {
     margin: 10px;
 }
-.Agent h1{
+
+.Agent h1 {
     margin: 0px;
     padding: 15px;
     color: black;
 }
-.Support{
+
+.Support {
     border-radius: 20px;
     background-color: white;
     width: 20%;
     height: 200px;
     margin: 20px 0px;
 }
-.Support svg{
+
+.Support svg {
     margin: 10px;
 }
-.Support h1{
+
+.Support h1 {
     margin: 0px;
     padding: 15px;
     color: black;
 }
-section{
+
+section {
     display: flex;
     justify-content: space-between;
     text-align: center;
 }
 
+footer {
+    position: fixed;
+    bottom: 0px;
+    background-color: lightblue;
+    width: 100%;
+    text-align: center;
+}
+
+footer p {
+    margin: 2px;
+    color: red;
+}
 
 
-@media (min-width:320px) and  (max-width:576px) {
-    .Block{
+
+
+
+@media (min-width:320px) and (max-width:576px) {
+    body {
+        height: 100;
+    }
+
+    .Block {
         margin: 0px 15.5%;
     }
-    section{
+
+    section {
         flex-direction: column;
         align-items: center;
     }
-    .Guarantee{
+
+    .Guarantee {
         width: 88%;
     }
-    .Love{
+
+    .Love {
         width: 88%;
     }
-    .Agent{
+
+    .Agent {
         width: 88%;
     }
-    .Support{
+
+    .Support {
         width: 88%;
     }
+
     .Block input {
         margin: 14px 0px;
         padding-right: 53px;
@@ -253,34 +315,43 @@ section{
         padding-top: 20px;
         border: none;
     }
-    .MiddleBlock{
+
+    .MiddleBlock {
         flex-wrap: wrap;
     }
-    .Rastaurant{
+
+    .Rastaurant {
         padding: 5px;
         margin: 10px 0px;
     }
-    .Hotel{
+
+    .Hotel {
         padding: 5px;
         margin: 10px 5px;
     }
-    .Places{
+
+    .Places {
         padding: 5px;
         margin: 10px 5px;
     }
-    .Shopping{
+
+    .Shopping {
         padding: 5px;
         margin: 10px 0px;
     }
-    .Block select{
+
+    .Block select {
         padding-right: 129px;
     }
-    
+
 }
+
 @media (min-width:577px) and (max-width:768px) {
-    .Block{
+
+    .Block {
         margin: 0px 18%;
     }
+
     .Block input {
         margin: 14px 0px;
         padding-right: 53px;
@@ -289,48 +360,62 @@ section{
         padding-top: 20px;
         border: none;
     }
-    .MiddleBlock{
+
+    .MiddleBlock {
         flex-wrap: wrap;
     }
-    .Rastaurant{
+
+    .Rastaurant {
         padding: 5px;
         margin: 10px 0px;
     }
-    .Hotel{
+
+    .Hotel {
         padding: 5px;
         margin: 10px 5px;
     }
-    .Places{
+
+    .Places {
         padding: 5px;
         margin: 10px 5px;
     }
-    .Shopping{
+
+    .Shopping {
         padding: 5px;
         margin: 10px 0px;
     }
-    .Block select{
+
+    .Block select {
         padding-right: 129px;
     }
-    section{
+
+    section {
         flex-wrap: wrap;
     }
-    .Guarantee{
-        width: 88%;
+
+    .Guarantee {
+        width: 48%;
     }
-    .Love{
-        width: 88%;
+
+    .Love {
+        width: 48%;
     }
-    .Agent{
-        width: 88%;
+
+    .Agent {
+        width: 48%;
     }
-    .Support{
-        width: 88%;
+
+    .Support {
+        width: 48%;
     }
 }
-@media (min-width:769px) and (max-width:992px) {
-    .Block{
+
+@media (min-width:769px) and (max-width:791px) {
+
+    .Block {
         margin: 0px 3%;
     }
+
     .Block input {
         margin: 14px 0px;
         padding-right: 53px;
@@ -339,49 +424,165 @@ section{
         padding-top: 20px;
         border: none;
     }
-    .MiddleBlock{
+
+    .MiddleBlock {
         flex-wrap: wrap;
     }
-    .Rastaurant{
+
+    .Rastaurant {
         padding: 5px;
         margin: 10px 0px;
     }
-    .Hotel{
+
+    .Hotel {
         padding: 5px;
         margin: 10px 5px;
     }
-    .Places{
+
+    .Places {
         padding: 5px;
         margin: 10px 5px;
     }
-    .Shopping{
+
+    .Shopping {
         padding: 5px;
         margin: 10px 0px;
     }
-    .Block select{
+
+    .Block select {
         padding-right: 129px;
     }
-    section{
+
+    section {
         flex-wrap: wrap;
-        justify-content: space-around;
+        /* justify-content: space-around; */
     }
-    .Guarantee{
-        width: 88%;
+
+    .Guarantee {
+        width: 30%;
     }
-    .Love{
-        width: 88%;
+
+    .Love {
+        width: 30%;
     }
-    .Agent{
-        width: 88%;
+
+    .Agent {
+        width: 30%;
     }
-    .Support{
-        width: 88%;
+
+    .Support {
+        width: 30%;
     }
 }
+
+@media (min-width:792px) and (max-width:888px) {
+    .Block {
+        margin: 0px 18%;
+    }
+
+    .Block input {
+        margin: 14px 0px;
+        padding-right: 53px;
+        padding-left: 20px;
+        padding-bottom: 20px;
+        padding-top: 20px;
+        border: none;
+    }
+
+    section {
+        flex-wrap: wrap;
+        /* justify-content: space-around; */
+    }
+
+    .Guarantee {
+        width: 30%;
+    }
+
+    .Love {
+        width: 30%;
+    }
+
+    .Agent {
+        width: 30%;
+    }
+
+    .Support {
+        width: 30%;
+    }
+
+}
+
+@media (min-width:889px) and (max-width:992px) {
+
+    .Block {
+        margin: 0px 3%;
+    }
+
+    .Block input {
+        margin: 14px 0px;
+        padding-right: 53px;
+        padding-left: 20px;
+        padding-bottom: 20px;
+        padding-top: 20px;
+        border: none;
+    }
+
+    .MiddleBlock {
+        flex-wrap: wrap;
+    }
+
+    .Rastaurant {
+        padding: 5px;
+        margin: 10px 0px;
+    }
+
+    .Hotel {
+        padding: 5px;
+        margin: 10px 5px;
+    }
+
+    .Places {
+        padding: 5px;
+        margin: 10px 5px;
+    }
+
+    .Shopping {
+        padding: 5px;
+        margin: 10px 0px;
+    }
+
+    .Block select {
+        padding-right: 129px;
+    }
+
+    section {
+        flex-wrap: wrap;
+        /* justify-content: space-around; */
+    }
+
+    .Guarantee {
+        width: 30%;
+    }
+
+    .Love {
+        width: 30%;
+    }
+
+    .Agent {
+        width: 30%;
+    }
+
+    .Support {
+        width: 30%;
+    }
+}
+
 @media (min-width:993px) and (max-width:1200px) {
-    .Block{
+
+    .Block {
         margin: 0px 7%;
     }
+
     .Block input {
         margin: 14px 0px;
         padding-right: 53px;
@@ -390,49 +591,62 @@ section{
         padding-top: 20px;
         border: none;
     }
-    .MiddleBlock{
+
+    .MiddleBlock {
         flex-wrap: wrap;
     }
-    .Rastaurant{
+
+    .Rastaurant {
         padding: 5px;
         margin: 10px 0px;
     }
-    .Hotel{
+
+    .Hotel {
         padding: 5px;
         margin: 10px 5px;
     }
-    .Places{
+
+    .Places {
         padding: 5px;
         margin: 10px 5px;
     }
-    .Shopping{
+
+    .Shopping {
         padding: 5px;
         margin: 10px 0px;
     }
-    .Block select{
+
+    .Block select {
         padding-right: 129px;
     }
-    section{
+
+    section {
         flex-wrap: wrap;
-        justify-content: space-around;
+        /* justify-content: space-around; */
     }
-    .Guarantee{
-        width: 88%;
+
+    .Guarantee {
+        width: 30%;
     }
-    .Love{
-        width: 88%;
+
+    .Love {
+        width: 30%;
     }
-    .Agent{
-        width: 88%;
+
+    .Agent {
+        width: 30%;
     }
-    .Support{
-        width: 88%;
+
+    .Support {
+        width: 30%;
     }
 }
+
 @media (min-width:1201px) and (max-width:1400px) {
-    .Block{
+    .Block {
         margin: 0px 9%;
     }
+
     .Block input {
         margin: 14px 0px;
         padding-right: 53px;
@@ -441,67 +655,71 @@ section{
         padding-top: 20px;
         border: none;
     }
-    .MiddleBlock{
+
+    .MiddleBlock {
         flex-wrap: wrap;
     }
-    .Rastaurant{
+
+    .Rastaurant {
         padding: 5px;
         margin: 10px 0px;
     }
-    .Hotel{
+
+    .Hotel {
         padding: 5px;
         margin: 10px 5px;
     }
-    .Places{
+
+    .Places {
         padding: 5px;
         margin: 10px 5px;
     }
-    .Shopping{
+
+    .Shopping {
         padding: 5px;
         margin: 10px 0px;
     }
-    .Block select{
+
+    .Block select {
         padding-right: 129px;
     }
-    section{
+
+    section {
         flex-wrap: wrap;
-        justify-content: space-around;
+        /* justify-content: space-around; */
     }
-    .Guarantee{
-        width: 88%;
+
+    .Guarantee {
+        width: 23%;
     }
-    .Love{
-        width: 88%;
+
+    .Love {
+        width: 23%;
     }
-    .Agent{
-        width: 88%;
+
+    .Agent {
+        width: 23%;
     }
-    .Support{
-        width: 88%;
+
+    .Support {
+        width: 23%;
     }
 }
-/* @media (min-width:1401px) and (max-width:2700px) {
-    .Block{
-        margin: 0px 14%;
-    }
-    
-} */
+
 
 @media (max-width:889px) {
-    .Navbar{
+    .Navbar {
         display: none;
     }
-    section{
+
+    section {
         flex-wrap: wrap;
     }
 }
-@media (min-width:890px) {
-    .dropdown{
+
+@media (min-width:889px) {
+    .dropdown {
         display: none;
     }
-    
+
 }
-
-
-
-
