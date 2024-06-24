@@ -10,7 +10,7 @@
 body{
     margin: 0px;
 }
-.card{
+.cardCA{
     border-radius: 15px;
     align-items: center;
     display: flex;
@@ -86,7 +86,7 @@ body{
 
 @media (max-width:380px) {
 
-    .card{
+    .cardCA{
         justify-content: center;
         margin: 6% 0%;
         flex-wrap: wrap;
@@ -116,7 +116,7 @@ body{
 }
 
 @media (min-width:381px) and (max-width:576px) {
-    .card{
+    .cardCA{
         justify-content: center;
         margin: 6% 0%;
         flex-wrap: wrap;
@@ -146,7 +146,7 @@ body{
     body{
         height: 880px;
     }
-    .card{
+    .cardCA{
         margin: 6% 6%;
     }
     .right input[type='text'] {
@@ -166,7 +166,7 @@ body{
     body{
         height: 880px;
     }
-    .card{
+    .cardCA{
         justify-content: center;
         margin: 6% 10%;
     }
@@ -188,7 +188,7 @@ body{
     body{
         height: 880px;
     }
-    .card{
+    .cardCA{
         justify-content: center;
         margin: 6% 10%;
         
@@ -208,7 +208,7 @@ body{
 }
 
 @media (min-width:1201px) and (max-width:1400px) {
-    .card{
+    .cardCA{
         justify-content: center;
         margin: 6% 10%;
     }

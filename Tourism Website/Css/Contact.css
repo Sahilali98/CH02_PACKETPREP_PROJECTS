@@ -13,7 +13,7 @@ h1 {
 }
 
 form {
-    color: white;
+    color: white    ;
     border-radius: 20px;
     padding: 10px;
     background-image: linear-gradient(rgba(41, 131, 220, 0.514),rgba(4, 52, 99, 0.719));
