@@ -3,7 +3,7 @@
 
 * {
     font-family: "Roboto", sans-serif;
-    font-weight: 400;
+    /* font-weight: 400; */
     font-style: normal;
 }
 
@@ -137,6 +137,12 @@ body{
 }
 
 @media (min-width:577px) and (max-width:768px) {
+    body{
+        height: 876px;
+    }
+    .right p{
+        margin: 0px 10px;
+    }
     .card{
         margin: 6% 6%;
     }
@@ -145,7 +151,7 @@ body{
         padding: 20px 38PX;
     }
     .right input[type='email'] {
-        padding: 18PX 38PX;
+        padding: 20px 38PX;
     }
     .right input[type='password'] {
         margin: 20px;
@@ -154,12 +160,15 @@ body{
 }
 
 @media (min-width:769px) and (max-width:992px) {
+    body{
+        height: 876px;
+    }
     .card{
         justify-content: center;
         margin: 6% 10%;
     }
     .right input[type='text'] {
-        margin: 21px;
+        margin: 10px;
         padding: 21px 40PX;
     }
     .right input[type='email'] {
@@ -173,6 +182,9 @@ body{
 }
 
 @media (min-width:993px) and (max-width:1200px) {
+    body{
+        height: 876px;
+    }
     .card{
         justify-content: center;
         margin: 6% 10%;
@@ -183,11 +195,11 @@ body{
         padding: 21px 40PX;
     }
     .right input[type='email'] {
-        padding: 18PX 38PX;
+        padding: 20PX 38PX;
     }
     .right input[type='password'] {
         margin: 22px;
-        padding: 20px 38PX;
+        padding: 21px 38PX;
     }
     
 }
@@ -199,13 +211,14 @@ body{
     }
     .right input[type='text'] {
         margin: 22px;
-        padding: 21px 40PX;
+        padding: 20px 40PX;
     }
     .right input[type='email'] {
-        padding: 18PX 38PX;
+        margin: 22px;
+        padding: 20PX 38PX;
     }
     .right input[type='password'] {
-        margin: 22px;
+        margin: 20px;
         padding: 20px 38PX;
     }
     

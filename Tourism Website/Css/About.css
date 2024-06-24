@@ -7,36 +7,45 @@
     font-style: normal;
 }
 
-.backImg div{
-    margin: 0px 11%;
-    position: relative;
-    bottom: 456px;  
+.backImg1{
+    background-image:linear-gradient(rgba(10, 20, 30, 0.767),rgba(10, 20, 30, 0.205)), url('../Img/hallstatt-3609863_640.jpg');
+    margin: 0 11%;
+    /* position: relative;
+    bottom: 456px;   */
+    background-repeat: no-repeat;
+    background-size: cover;
     color: white;
+    padding: 20px;
+    border-radius: 20px;
 }
-.backImg img{
+/* .backImg img{
+    
     opacity: 0.5;
-}
+} */
 
 
 
-@media (max-width:576px) {
-    .backImg div {
-        margin: 0px 80px;
+/* @media(min-width:320) and (max-width:576px) {
+    .backImg1{
+        margin: 0 14%;
     }
     
 }
-@media (max-width:768px) {
-    .backImg div {
+@media (min-width:577) and (max-width:768px) {
+    .backImg1{
         margin: 0px 18%;
+    }
+    body{
+        height: 1000px;
     }
     
-}
-@media (min-width:769px) and (max-width:888px) {
-    .backImg div{
+} */
+@media (min-width:769px) and (max-width:992px) {
+    .backImg1{
         margin: 0px 18%;
     }
 }
-@media (min-width:956px) and (max-width:1288px) {
+@media  (max-width:1288px) {
     body{
         height: 862px;
     }

@@ -19,7 +19,7 @@
     padding: 20px;
     width: 25%;
     background: transparent;
-    backdrop-filter: blur(8px);
+    /* backdrop-filter: blur(8px); */
     border: 2px solid white;
     border-radius: 20px;
     background-image: linear-gradient(rgba(10, 20, 30, 0.164), rgba(10, 20, 30, 0.584));
@@ -35,7 +35,7 @@
     padding: 20px;
     width: 25%;
     background: transparent;
-    backdrop-filter: blur(8px);
+    /* backdrop-filter: blur(8px); */
     border: 2px solid white;
     border-radius: 20px;
     background-image: linear-gradient(rgba(10, 20, 30, 0.164), rgba(10, 20, 30, 0.584));
@@ -51,7 +51,7 @@
     padding: 20px;
     width: 25%;
     background: transparent;
-    backdrop-filter: blur(8px);
+    /* backdrop-filter: blur(8px); */
     border: 2px solid white;
     border-radius: 20px;
     background-image: linear-gradient(rgba(10, 20, 30, 0.164), rgba(10, 20, 30, 0.584));
@@ -67,7 +67,7 @@
     padding: 20px;
     width: 25%;
     background: transparent;
-    backdrop-filter: blur(8px);
+    /* backdrop-filter: blur(8px); */
     border: 2px solid white;
     border-radius: 20px;
     background-image: linear-gradient(rgba(10, 20, 30, 0.164), rgba(10, 20, 30, 0.584));
