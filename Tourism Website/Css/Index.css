@@ -71,7 +71,7 @@ nav {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    background: transparent;    
+    background: transparent;
     backdrop-filter: blur(10px);
 
 }
@@ -273,14 +273,100 @@ footer p {
     color: red;
 }
 
+.card1 {
+    margin: 0px 35px;
+    padding: 20px;
+    width: 30%;
+    background-color: red;
+    border-radius: 20px;
+    box-shadow: 5px 5px gray;
+}
+
+.card2 {
+    background-color: red;
+    padding: 20px;
+    width: 30%;
+    border-radius: 20px;
+    box-shadow: 5px 5px gray;
+}
+
+.card3 {
+    background-color: red;
+    margin: 0px 35px;
+    padding: 20px;
+    width: 30%;
+    border-radius: 20px;
+    box-shadow: 5px 5px gray;
+}
+
+.card {
+    display: flex;
+    justify-content: space-around;
+    margin: 30px 126px;
+}
+
+.starImg {
+    width: 20px;
+    height: 20px;
+}
+
+.imgFlex {
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.profileImg {
+    border-radius: 50%;
+}
+
+h2 {
+    font-size: 21px;
+}
+
+#imgFlex2 {
+    top: 76px;
+
+}
+
+#imgFlex3 {
+    top: 54px;
+}
+
+
 
 
 
 
 @media (min-width:320px) and (max-width:576px) {
+
     /* body {
         height: 100;
     } */
+    .card {
+        flex-wrap: wrap;
+        margin: 0px 16%;
+    }
+
+    .card1 {
+        width: 80%;
+    }
+
+    .card2 {
+        width: 80%;
+        margin: 10% 0;
+        /* top: 16px; */
+    }
+
+    #imgFlex2 {
+        top: 14px;
+    }
+
+    .card3 {
+        width: 80%;
+        margin: 10% 0;
+    }
 
     .Block {
         margin: 0px 15.5%;
@@ -347,6 +433,33 @@ footer p {
 }
 
 @media (min-width:577px) and (max-width:768px) {
+    .card {
+        flex-wrap: wrap;
+        margin: 0px 16%;
+    }
+
+    .card1 {
+        width: 50%;
+    }
+
+    .card2 {
+        width: 50%;
+        margin: 10% 0;
+        /* top: 16px; */
+    }
+
+    #imgFlex2 {
+        top: 14px;
+    }
+
+    .card3 {
+        width: 50%;
+        margin: 10% 0;
+    }
+    #imgFlex3 {
+        top: 29px;
+    }
+    
 
     .Block {
         margin: 0px 18%;
@@ -411,6 +524,32 @@ footer p {
 }
 
 @media (min-width:769px) and (max-width:791px) {
+        .card {
+        flex-wrap: wrap;
+        margin: 0px 16%;
+    }
+
+    .card1 {
+        width: 50%;
+    }
+
+    .card2 {
+        width: 50%;
+        margin: 10% 0;
+        /* top: 16px; */
+    }
+
+    #imgFlex2 {
+        top: 14px;
+    }
+
+    .card3 {
+        width: 50%;
+        margin: 10% 0;
+    }
+    #imgFlex3 {
+        top: 29px;
+    }
 
     .Block {
         margin: 0px 3%;
@@ -513,6 +652,34 @@ footer p {
 }
 
 @media (min-width:889px) and (max-width:992px) {
+    .card {
+        flex-wrap: wrap;
+        margin: 0px 3%;
+        justify-content: space-between;
+    }
+
+    .card1 {
+        width: 35%;
+        margin: 2%;
+    }
+
+    .card2 {
+        width: 35%;
+        /* margin: 10% 0; */
+        /* top: 16px; */
+    }
+
+    #imgFlex2 {
+        top: 14px;
+    }
+
+    .card3 {
+        width: 35%;
+        /* margin: 10% 0; */
+    }
+    #imgFlex3 {
+        top: 29px;
+    }
 
     .Block {
         margin: 0px 3%;
@@ -578,6 +745,34 @@ footer p {
 }
 
 @media (min-width:993px) and (max-width:1200px) {
+    .card {
+        flex-wrap: wrap;
+        margin: 0px 5%;
+        justify-content: space-between;
+    }
+
+    .card1 {
+        width: 35%;
+        margin: 2%;
+    }
+
+    .card2 {
+        width: 35%;
+        /* margin: 10% 0; */
+        /* top: 16px; */
+    }
+
+    #imgFlex2 {
+        top: 14px;
+    }
+
+    .card3 {
+        width: 35%;
+        /* margin: 10% 0; */
+    }
+    #imgFlex3 {
+        top: 29px;
+    }
 
     .Block {
         margin: 0px 7%;
@@ -643,6 +838,34 @@ footer p {
 }
 
 @media (min-width:1201px) and (max-width:1400px) {
+    .card {
+        flex-wrap: wrap;
+        margin: 0px 8%;
+        justify-content: space-between;
+    }
+
+    .card1 {
+        width: 35%;
+        margin: 2%;
+    }
+
+    .card2 {
+        width: 35%;
+        /* margin: 10% 0; */
+        /* top: 16px; */
+    }
+
+    #imgFlex2 {
+        top: 14px;
+    }
+
+    .card3 {
+        width: 35%;
+        /* margin: 10%; */
+    }
+    #imgFlex3 {
+        top: 29px;
+    }
     .Block {
         margin: 0px 9%;
     }
