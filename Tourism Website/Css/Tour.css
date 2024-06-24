@@ -8,7 +8,7 @@
 }
 
 .Main {
-    margin: 2% 10.5%;
+    margin: 2% 9.5%;
     display: flex;
     justify-content: space-around;
     color: white;
@@ -83,7 +83,7 @@ button {
     padding: 10px 20px;
     border-radius: 20px;
     border: none;
-    background-color: lightblue;
+    background-color: blue;
     color: white;
 }
 
