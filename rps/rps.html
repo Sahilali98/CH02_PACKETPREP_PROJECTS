@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ROCK PAPER SCISSORS</title>
+    <link rel="stylesheet" href="./rps.css">
+
+</head>
+
+<body>
+    <section>
+        <h1>ROCK PAPER SCISSORS</h1>
+        <h1>User Choose Your Option Here</h1>
+        <div class="flex">
+            <div id="rock" onclick="check('rock')"></div>
+            <div id="paper" onclick="check('paper')"></div>
+            <div id="scissors" onclick="check('scissors')"></div>
+        </div>
+        <div class="custom">User Choose : <span id="user"></span></div>
+        <div class="custom">Computer Choose : <span id="computer"></span></div>
+        <div class="custom"> Result : <span id="result"></span></div>
+    </section>
+    <!-- <script src="./rps.js"></script> -->
+    <script>
+        let user1 = document.getElementById('user');
+        let computer1 = document.getElementById('computer');
+        let result = document.getElementById('result');
+
+        // console.log(computer_choice())
+        function check(user) {
+            console.log(user);
+            let options = ['rock', 'paper', 'scissors'];
+            let select = parseInt(Math.random() * 3);
+            let computer = options[select];
+
+            if (user === computer) {
+                result.innerText = 'tie!';
+                computer1.innerText = computer;
+                user1.innerText = user;
+            }
+            else if ((user === 'rock' && computer === 'scissors') || (user === 'paper' && computer === 'rock') || (user === 'scissors' && computer === 'paper')) {
+                result.innerText = 'winner';
+                computer1.innerText = computer;
+                user1.innerText = user;
+            }
+            else {
+                result.innerText = 'you loose';
+                computer1.innerText = computer;
+                user1.innerText = user;
+            }
+        }
+    </script>
+</body>
+
+</html>
