@@ -1,0 +1,57 @@
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    width: 400px;
+    height: 400px;
+}
+
+h1 {
+    text-align: center;
+    color: green;
+}
+
+
+section div{
+    display: flex;
+    justify-content: space-around;
+}
+
+.a {
+    text-decoration: none;
+    cursor: pointer;
+    padding: 10px;
+    font-size: 20px;
+    background-color: green;
+    color: palevioletred;
+}
+
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+
+@media (max-width : 420px) {
+    section div{
+        margin: auto;
+        flex-direction: column;
+    }
+    section div a{
+        margin: 10px 0px;
+        width: 100%;
+    }
+
+    
+}
