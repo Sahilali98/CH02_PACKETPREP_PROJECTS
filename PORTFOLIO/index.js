@@ -10,7 +10,7 @@ function sendEmail(event) {
         Server: 'smtp.elasticemail.com',
         Port: '2525',
         Username: "sksahilali.ind@gmail.com",
-        Password: "C79003E441C384F0317378623667B6B83DBC",
+        Password: "",
         To: receiverEmail,
         From: "sksahilali.ind@gmail.com",
         Subject: subject,
